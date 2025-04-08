@@ -1,0 +1,21 @@
+[
+    {
+      "id": "influencer_001",
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "password": "alice@123"
+    },
+    {
+      "id": "influencer_002",
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "password": "bon@123"
+    },
+    {
+      "id": "influencer_003",
+      "name": "Cara Lee",
+      "email": "cara@example.com",
+      "password": "cara@123"
+    }
+  ]
+  

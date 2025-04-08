@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Skincare Campaign",
+    "description": "Promote organic skincare products.",
+    "startDate": "2025-04-01T09:00:00",
+    "endDate": "2025-04-30T23:59:00",
+    "assignedTo": ["influencer_001"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 2,
+    "title": "Fitness Gear Launch",
+    "description": "Showcase new fitness gear in your content.",
+    "startDate": "2025-03-15T08:00:00",
+    "endDate": "2025-04-10T20:00:00",
+    "assignedTo": ["influencer_002"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 3,
+    "title": "Summer Clothing Line",
+    "description": "Promote summer fashion apparel.",
+    "startDate": "2025-04-05T10:30:00",
+    "endDate": "2025-05-05T18:00:00",
+    "assignedTo": ["influencer_001", "influencer_003"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 4,
+    "title": "Healthy Snacks Campaign",
+    "description": "Share your experience with healthy snack brands.",
+    "startDate": "2025-03-01T09:00:00",
+    "endDate": "2025-03-31T23:00:00",
+    "assignedTo": ["influencer_001"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 5,
+    "title": "Gadget Giveaway",
+    "description": "Host a giveaway for a new tech gadget.",
+    "startDate": "2025-04-01T07:00:00",
+    "endDate": "2025-04-20T22:00:00",
+    "assignedTo": ["influencer_002"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 6,
+    "title": "Eco-friendly Campaign",
+    "description": "Spread awareness about sustainable living.",
+    "startDate": "2025-03-20T08:30:00",
+    "endDate": "2025-04-15T23:59:00",
+    "assignedTo": ["influencer_003"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 7,
+    "title": "Book Club Launch",
+    "description": "Promote a new monthly book subscription service.",
+    "startDate": "2025-04-01T10:00:00",
+    "endDate": "2025-04-30T21:00:00",
+    "assignedTo": ["influencer_002"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 8,
+    "title": "Luxury Watch Promotion",
+    "description": "Highlight the brand’s latest watch collection.",
+    "startDate": "2025-03-25T14:00:00",
+    "endDate": "2025-04-05T23:59:00",
+    "assignedTo": ["influencer_001"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 9,
+    "title": "Pet Accessories Campaign",
+    "description": "Feature pet-friendly accessories in your posts.",
+    "startDate": "2025-04-03T09:30:00",
+    "endDate": "2025-04-18T20:30:00",
+    "assignedTo": ["influencer_003"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 10,
+    "title": "Makeup Brand Launch",
+    "description": "Showcase the new line of cruelty-free cosmetics.",
+    "startDate": "2025-04-06T11:00:00",
+    "endDate": "2025-04-25T22:00:00",
+    "assignedTo": ["influencer_001"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 11,
+    "title": "Local Coffee Shop Promo",
+    "description": "Promote a local coffee shop and their signature drinks.",
+    "startDate": "2025-03-01T09:00:00",
+    "endDate": "2025-03-20T18:00:00",
+    "assignedTo": ["influencer_002", "influencer_003"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 12,
+    "title": "Streaming Service Deal",
+    "description": "Share limited-time subscription offers.",
+    "startDate": "2025-04-02T08:00:00",
+    "endDate": "2025-04-22T23:59:00",
+    "assignedTo": ["influencer_001", "influencer_002"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 13,
+    "title": "Home Decor Brand Partnership",
+    "description": "Show off your space using this new decor line.",
+    "startDate": "2025-04-07T10:00:00",
+    "endDate": "2025-05-01T23:59:00",
+    "assignedTo": ["influencer_003"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 14,
+    "title": "Online Course Promo",
+    "description": "Encourage followers to join an educational course.",
+    "startDate": "2025-02-10T09:00:00",
+    "endDate": "2025-03-10T23:59:00",
+    "assignedTo": ["influencer_001"],
+    "isManuallyCompleted": false
+  },
+  {
+    "id": 15,
+    "title": "Fitness App Collaboration",
+    "description": "Share workouts using a fitness app.",
+    "startDate": "2025-04-05T07:30:00",
+    "endDate": "2025-04-30T23:00:00",
+    "assignedTo": ["influencer_002"],
+    "isManuallyCompleted": false
+  }
+]
