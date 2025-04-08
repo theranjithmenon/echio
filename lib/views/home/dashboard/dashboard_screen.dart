@@ -19,12 +19,12 @@ class _DashboardScreenState extends State<DashboardScreen> {
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      context.read<CampaignBloc>().add(FetchCampaigns(savedUser!.id));
+      context.read<CampaignBloc>().add(FetchCampaigns(savedUser?.id ?? ''));
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    return DashboardView(influencerId: savedUser!.id);
+    return DashboardView(influencerId: savedUser?.id ?? '');
   }
 }

@@ -1,4 +1,6 @@
+import 'package:echio/constants/keys.dart';
 import 'package:echio/constants/text.dart';
+import 'package:echio/db/box.dart';
 import 'package:echio/models/campaign_details_args.dart';
 import 'package:echio/models/campaign_model.dart';
 import 'package:echio/navigation.dart';
@@ -40,7 +42,23 @@ class _DashboardViewState extends State<DashboardView> {
     child: Scaffold(appBar: _appBar(), body: _body(context)),
   );
 
-  _appBar() => AppBar(bottom: TabBar(tabs: tabs));
+  _appBar() => AppBar(
+    title: Text("Campaigns"),
+    bottom: TabBar(tabs: tabs),
+    actions: [
+      IconButton(
+        onPressed: () async {
+          Navigator.pushNamedAndRemoveUntil(
+            context,
+            AppNavigation.logInFormRoute,
+            (route) => false,
+          );
+          await userBox.delete(KKeys.loggedInUser);
+        },
+        icon: Icon(Icons.logout),
+      ),
+    ],
+  );
 
   Widget _body(BuildContext context) => Padding(
     padding: const EdgeInsets.all(8.0),
